@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "git_hook-rspec"
   gem.require_paths = ["lib"]
   gem.version       = GitHook::Rspec::VERSION
+
+  gem.add_dependency 'git_hook'
 end

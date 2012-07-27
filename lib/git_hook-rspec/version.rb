@@ -1,5 +1,5 @@
 module GitHook
-  module Rspec
+  class Rspec
     VERSION = "0.0.1"
   end
 end

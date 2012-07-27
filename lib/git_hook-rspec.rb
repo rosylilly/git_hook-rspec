@@ -1,7 +1,7 @@
+require "git_hook/hook"
 require "git_hook-rspec/version"
 
 module GitHook
-  module Rspec
-    # Your code goes here...
+  class Rspec < GitHook::Hook
   end
 end
