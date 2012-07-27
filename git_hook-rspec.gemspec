@@ -4,9 +4,9 @@ require File.expand_path('../lib/git_hook-rspec/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Sho Kusano"]
   gem.email         = ["rosylilly@aduca.org"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{git pre-commit hook. run all rspec.}
+  gem.summary       = %q{git pre-commit hook. run all rspec.}
+  gem.homepage      = "https://github.com/rosylilly/git_hook-rspec"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
